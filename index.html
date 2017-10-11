@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Pomodoro Clock</title>
+</head>
+<body>
+  <audio src="http://www.wavsource.com/snds_2017-09-17_1751672946049674/sfx/buzzer_x.wav" type="audio/wav" id="audio" ></audio>
+  <div class="text-center">
+    <h1>Pomodoro Clock</h1>
+    <h4>freecodecamp project</h4>
+    <h2 id="display"></h2>
+    <h2 id="length">session length (in minutes)</h2>
+    <div class="session">
+    <button id="minus5">-</button>
+    <a id="timer">5</a>
+    <button id="plus5">+</button>
+  </div>
+    <h2 id="break">Break (in seconds)</h2>
+      <div class="break">
+    <button id="minus5Break">-</button>
+    <a id="timerBreak">5</a>
+    <button id="plus5Break">+</button>
+  </div>
+  <button class="btn btn-primary" id="start">Start</button>
+  <button class="btn btn-primary" id="reset">Reset</button>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="javascript.js"></script>

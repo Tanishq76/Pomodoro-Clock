@@ -1,0 +1,17 @@
+body{
+  background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/8NUXGZOM1G.jpg");
+  background-size: cover;
+}
+.session{
+  display: inline;
+  margin: 20px;
+}
+.break{
+  margin: 10px;
+}
+h2{
+  margin: 20px;
+}
+a{
+font-size:30px;
+}
